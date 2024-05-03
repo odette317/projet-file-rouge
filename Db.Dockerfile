@@ -5,4 +5,4 @@ FROM mysql:5.7
 ENV MYSQL_ROOT_PASSWORD=root
 
 # Ajouter le script SQL qui initialise la base de données
-ADD base_de_donnee/profil.sql /docker-entrypoint-profildb.d/
+ADD profil.sql /docker-entrypoint-profildb.d/
